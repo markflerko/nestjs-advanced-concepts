@@ -1,4 +1,4 @@
-import { Inject, Injectable } from '@nestjs/common';
+import { Injectable } from '@nestjs/common';
 import { LazyModuleLoader } from '@nestjs/core';
 import { Coffee } from 'src/coffees/entities/coffee.entity';
 import { CreateCoffeeDto } from './dto/create-coffee.dto';
